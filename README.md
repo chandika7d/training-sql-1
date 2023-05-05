@@ -1,4 +1,4 @@
-# training-sql-1
+# Training SQL 1
 
 ## Database Schema
 ![image](https://user-images.githubusercontent.com/20274245/236401536-f2032dbb-6cfe-4fb6-aa3b-55e443f4402c.png)
