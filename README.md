@@ -55,7 +55,7 @@
   FROM customers
   ORDER BY Yos desc;
   ```
- ![image](https://user-images.githubusercontent.com/20274245/236402963-8711c97f-b24a-48b8-aecd-c404df07cc31.png)
+  ![image](https://user-images.githubusercontent.com/20274245/236402963-8711c97f-b24a-48b8-aecd-c404df07cc31.png)
 
 
 - Mengambil total dari setiap order
@@ -73,7 +73,7 @@
       INNER JOIN orderdetails od on o.orderNumber = od.orderNumber
   GROUP BY o.orderNumber;
   ```
- ![image](https://user-images.githubusercontent.com/20274245/236402995-622ca59a-1b9a-4a8b-9563-0e858f01f89d.png)
+  ![image](https://user-images.githubusercontent.com/20274245/236402995-622ca59a-1b9a-4a8b-9563-0e858f01f89d.png)
 
 
 - Mengambil data pembayaran customer mulai dari yang terbaru
@@ -89,5 +89,5 @@
   ORDER BY
     paymentDate DESC;
   ```
- ![image](https://user-images.githubusercontent.com/20274245/236403024-b96d61e6-35f0-4131-bd71-870172746a57.png)
+  ![image](https://user-images.githubusercontent.com/20274245/236403024-b96d61e6-35f0-4131-bd71-870172746a57.png)
 
